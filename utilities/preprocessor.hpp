@@ -1099,7 +1099,7 @@ required. For example, an array dimension.
 #define PLATFORM_WINDOWS "Microsoft Windows (32-Bit)"
 #define PLATFORM_DEVICE "Desktop"
 #define PLATFORM_TYPE "PC"
-#elif defined(_WIN64) && defined(_WIN32) && !defined(_M_ARM64) !defined (WINAPI_FAMILY_PHONE_APP) && (WINAPI_FAMILY == WINAPI_FAMILY_DESKTOP_APP)
+#elif defined(_WIN64) && defined(_WIN32) && !defined(_M_ARM64) && !defined (WINAPI_FAMILY_PHONE_APP) && (WINAPI_FAMILY == WINAPI_FAMILY_DESKTOP_APP)
 /* Microsoft Windows (64-bit). ------------------------------ */
 #define PLATFORM_OS "Windows"
 #define PLATFORM_ARCH "x64 (64-Bit)"

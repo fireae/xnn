@@ -8,8 +8,8 @@ CompilerTest::CompilerTest() {
 }
 
 void CompilerTest::getCompilerInfo() const noexcept {
-  cout << "Compiler Name : " << COMPILER << endl;
-  cout << "Compiler Version : " << COMPILER_VER << endl;
+  std::cout << "Compiler Name : " << COMPILER << std::endl;
+  //std::cout << "Compiler Version : " << COMPILER_VER << std::endl;
 }
 
 void CompilerTest::checkByCompiler() const noexcept {
